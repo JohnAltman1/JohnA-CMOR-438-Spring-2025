@@ -26,7 +26,7 @@ $$
 \sigma(z) = \frac{1}{1 + e^{-z}}
 $$
 
-This produces the predicted probability \( \hat{y} \in (0, 1) \), interpreted as:
+This produces the predicted probability $\( \hat{y} \in (0, 1) \)$, interpreted as:
 
 $$
 \hat{y} = P(y=1 \mid \mathbf{x}; \mathbf{w}, b)
