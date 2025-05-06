@@ -16,11 +16,9 @@ $$
 
 Where:
 
-$$
-- \( \mathbf{x} \in \mathbb{R}^d \): Input features (column vector)
+- $ \mathbf{x} \in \mathbb{R}^d $: Input features (column vector)
 - \( \mathbf{w} \in \mathbb{R}^d \): Weight vector
 - \( b \in \mathbb{R} \): Bias term
-$$
 
 The output is passed through the **sigmoid activation function**:
 
