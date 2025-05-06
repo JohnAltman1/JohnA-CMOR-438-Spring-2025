@@ -1,5 +1,3 @@
-# K Nearest Neighbors Algorithm Implementation
-
 # K-Nearest Neighbors (KNN)
 
 K-Nearest Neighbors (KNN) is a simple, instance-based learning algorithm that predicts the class or value of a data point based on its `k` nearest neighbors in the feature space.
