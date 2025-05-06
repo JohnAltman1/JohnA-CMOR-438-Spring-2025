@@ -36,4 +36,4 @@ The neural network model is applied to the **EMNIST** dataset, which is an exten
 
 ## Reproducing Results
 
-This should only requier running all cells of the notebook. It is useful to run the final cell multiple times to see how to model performes on the dataset.
+This should only require running all cells of the notebook. It is useful to run the final cell multiple times to see how to model performs on the dataset.

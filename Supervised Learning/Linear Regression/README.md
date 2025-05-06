@@ -32,4 +32,4 @@ The perceptron is applied to the **Banknote Authentication** dataset, sourced fr
 
 ## Reproducing Results
 
-This should only requier running all cells of the notebook. How quickly it converges does change some based on its initial random state, but that should not effect the model too much.
+This should only require running all cells of the notebook. How quickly it converges does change some based on its initial random state, but that should not effect the model too much.
