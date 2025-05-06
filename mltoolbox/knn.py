@@ -2,11 +2,10 @@ import numpy as np
 
 
 class KNN(object):
-    def __init__(self, X_train, y_train, distance, k=5):
+    def __init__(self, X_train, y_train, distance):
         self.x = X_train
         self.y = y_train
         self.distance = distance
-        self.k = k
 
     def k_nearest_neighbors(self, point, k):
         # Create an empty list to store neighbors and distances
