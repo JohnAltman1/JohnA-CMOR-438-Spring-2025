@@ -8,4 +8,4 @@ The perceptron is applied to the **Banknote Authentication** dataset, sourced fr
 
 ## Notebook Contents
 
-The **Perceptron Notebook** in this folder contains a brief explanation of the perceptron algorithm, and a demonstration of its use on the **Banknote Authentication** dataset.
+The **Perceptron Notebook** in this folder contains an explanation of the perceptron algorithm, and a demonstration of its use on the **Banknote Authentication** dataset.

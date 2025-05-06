@@ -8,4 +8,4 @@ The linear regression model is applied to the **Banknote Authentication** datase
 
 ## Notebook Contents
 
-The **Linear Regression Notebook** in this folder contains a brief explanation of the linear regression algorithm, and a demonstration of its use on the **Banknote Authentication** dataset.
+The **Linear Regression Notebook** in this folder contains an explanation of the linear regression algorithm, and a demonstration of its use on the **Banknote Authentication** dataset.
