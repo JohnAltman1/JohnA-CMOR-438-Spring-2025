@@ -16,9 +16,9 @@ $$
 
 Where:
 
-- $ \mathbf{x} \in \mathbb{R}^d $: Input features (column vector)
-- \( \mathbf{w} \in \mathbb{R}^d \): Weight vector
-- \( b \in \mathbb{R} \): Bias term
+- **x** ∈ ℝᵈ: Input features (column vector)  
+- **w** ∈ ℝᵈ: Weight vector  
+- **b** ∈ ℝ: Bias term
 
 The output is passed through the **sigmoid activation function**:
 
@@ -26,7 +26,7 @@ $$
 \sigma(z) = \frac{1}{1 + e^{-z}}
 $$
 
-This produces the predicted probability $$\( \hat{y} \in (0, 1) \)$$, interpreted as:
+This produces the predicted probability **ŷ** ∈ (0, 1), interpreted as:
 
 $$
 \hat{y} = P(y=1 \mid \mathbf{x}; \mathbf{w}, b)
