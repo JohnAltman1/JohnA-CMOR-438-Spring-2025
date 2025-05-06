@@ -6,27 +6,26 @@ The perceptron algorithm is used for binary classification tasks, where the goal
 
 The perceptron works by iteratively adjusting its weights based on the input data and the classification error. The algorithm can be summarized as follows:
 
-1. **Initialization**: Start with random weights $\( \mathbf{w} \) and a bias \( b \)$, often initialized to zero.
-2. **Prediction**: For an input vector $\( \mathbf{x} \)$, compute the weighted sum:
-    $\[
-    z = \mathbf{w} \cdot \mathbf{x} + b
-    \]$
-    Apply the step function to determine the predicted class:
-    $\[
-    \hat{y} = 
-    \begin{cases} 
-    1 & \text{if } z \geq 0 \\
-    0 & \text{if } z < 0
-    \end{cases}
-    \]$
+1. **Initialization**: Start with random weights **w** and bias **b**, often initialized to zero.
+
+2. **Prediction**: For an input vector **x**, compute the weighted sum:
+   
+   z = w · x + b
+
+   Apply the step function to determine the predicted class:
+
+   ŷ = 1 if z ≥ 0  
+   ŷ = 0 if z < 0
+
 3. **Update Rule**: For each misclassified data point, update the weights and bias:
-    $\[
-    \mathbf{w} \leftarrow \mathbf{w} + \eta (y - \hat{y}) \mathbf{x}
-    \]$
-    $\[
-    b \leftarrow b + \eta (y - \hat{y})
-    \]$
-    Here, $\( y \)$ is the true label, $\( \hat{y} \)$ is the predicted label, and $\( \eta \)$ is the learning rate.
+
+   w ← w + η(y - ŷ)x  
+   b ← b + η(y - ŷ)
+
+   Where:
+   - y is the true label  
+   - ŷ is the predicted label  
+   - η is the learning rate
 
 4. **Repeat**: Iterate over the dataset multiple times until the algorithm converges (i.e., no misclassifications) or a maximum number of iterations is reached.
 
