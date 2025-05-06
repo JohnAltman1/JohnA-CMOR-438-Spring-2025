@@ -13,9 +13,8 @@ K-Nearest Neighbors (KNN) is a simple, instance-based learning algorithm that pr
 ## Key Parameters
 - **k**: Number of neighbors to consider; small `k` may overfit, large `k` may oversmooth.
 - **Distance Metric**: Defines similarity. Common options:
-  - Euclidean: $ \sqrt{\sum (x_i - y_i)^2} $
-  - Manhattan: $ \sum |x_i - y_i| $
-
+- **Euclidean Distance**: √Σ(xᵢ − yᵢ)²  
+- **Manhattan Distance**: Σ|xᵢ − yᵢ|
 
 KNN is easy to implement and interpret, but it is slow on large datasets due to the increasing number of distance calculations.
 
