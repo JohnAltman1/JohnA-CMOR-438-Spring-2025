@@ -23,4 +23,4 @@ The Kmeans algorithm is applied to the **Seeds** dataset, sourced from the [UC I
 
 ## Reproducing Results
 
-This should only require running all cells of the notebook, but the last cell can be somewhat inconsistent so it is worthwile running it multiple times to see how it changes the result of what is the best number of clusters.
+This should only require running all cells of the notebook, but the last cell is inconsistent due to random initialization conditions, so it is worthwhile to run it multiple times to see how the results change.
