@@ -19,7 +19,7 @@ K-Means is a popular unsupervised learning algorithm used to organize unlabeled 
 
 ## Dataset
 
-The Kmeans algorithm is applied to the **Seeds** dataset, sourced from the [UC Irvine Machine Learning Repository](https://archive.ics.uci.edu/dataset/236/seeds). This dataset has 3 groups of diffferent wheat seed varieties, providing data on the shape and charactersisitcs of each seed. Specific to this implementation, we are looking at the Area and Asymmetry of the seads. Area is the area the seed takes up in an image, while Asymmetry is a measure of how irregular the seed's shape is. A major reason I chose this dataset is because it had 3 groups and I wanted to work with more than just binary classification.
+The Kmeans algorithm is applied to the **Seeds** dataset, sourced from the [UC Irvine Machine Learning Repository](https://archive.ics.uci.edu/dataset/236/seeds). This dataset has 3 groups of diffferent wheat seed varieties, providing data on the shape and characteristics of each seed. Specific to this implementation, we are looking at the Area and Asymmetry of the seads. Area is the area the seed takes up in an image, while Asymmetry is a measure of how irregular the seed's shape is. A major reason I chose this dataset is because it had 3 groups and I wanted to work with more than just binary classification.
 
 ## Reproducing Results
 
