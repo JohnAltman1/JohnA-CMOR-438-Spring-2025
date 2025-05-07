@@ -1,8 +1,27 @@
-# CMOR 438 Data Science & Machine Learing
+# Final Repository: CMOR 438 — Data Science and Machine Learning
 
-This is the public git repository for my work for the class CMOR 438 at Rice University
+### Instructor: Randy R. Davila
+
+### Contents:
+1. Supervised Learning: 
+    The implementations and analysis for supervised learning algorthms. Contains:
+        The Perceptron
+        Linear Regression 
+        Logistic Regression 
+        Neural Networks
+        K Nearest Neighbors
+        Decision Trees\Regression Trees 
+        Random Forests 
+        Ensemble                          
+2. Unsupervised Learning: 
+    The implementations and analysis for unsupervised learning algorthms. Contains:
+        K-Means Clustering
+        DBSCAN   
+        Principle Component Analysis  
+        SVD Compression
+3. mltoolbox: A python module with Machine Learning algorithms implemented as classes.
 
 
-Must install the python module with the command
-pip install ML_toolbox 
-to use it in he notebooks
+### Author
+John Altman
+jca4@rice.edu
