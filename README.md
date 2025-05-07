@@ -1,6 +1,8 @@
 # Final Repository: CMOR 438 — Data Science and Machine Learning
 
-### Instructor: Randy R. Davila
+### Author
+John Altman
+jca4@rice.edu
 
 ### Contents:
 1. Supervised Learning:  
@@ -24,7 +26,5 @@
 3. mltoolbox:  
     A Python module with Machine Learning algorithms implemented as classes.
 
-
-### Author
-John Altman
-jca4@rice.edu
+### Instructor: 
+    Randy R. Davila
