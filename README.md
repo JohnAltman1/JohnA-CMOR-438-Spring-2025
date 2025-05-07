@@ -30,4 +30,4 @@ jca4@rice.edu
     The datasets used in the application of the algorithms.
 
 ### Instructor: 
-- Randy R. Davila
+Randy R. Davila
