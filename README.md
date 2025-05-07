@@ -1,6 +1,6 @@
 # Final Repository: CMOR 438 — Data Science and Machine Learning
 
-### Author
+### Author:
 John Altman
 jca4@rice.edu
 
@@ -25,6 +25,9 @@ jca4@rice.edu
 
 3. mltoolbox:  
     A Python module with Machine Learning algorithms implemented as classes.
+
+4. Datasets:
+    The datasets used in the application of the algorithms.
 
 ### Instructor: 
     Randy R. Davila
