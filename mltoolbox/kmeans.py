@@ -58,8 +58,22 @@ class kmeans(object):
         self.centroids = new_centroids
 
 
-    def update_loop(self,numLoops):
-        for _ in range(numLoops):
-            self.update_centroids()
-            self.assign_label()
+    def update_loop(self, numLoops, solve=False, piter=True, maxIter=2000):
+        if solve==True:
+            delta = 2000*numLoops
+            iter = 0
+            while (delta/len(self.centroids))>numLoops and iter<maxIter:
+                old_centroids = self.centroids
+                self.update_centroids()
+                self.assign_label()
+                delta = 0.0
+                for cent_n,cent_o in zip(self.centroids,old_centroids):
+                    delta += self.distance_f(cent_n,cent_o)
+                iter += 1
+            if piter==True:
+                print(f"Number of iterations: {iter}")
+        else:      
+            for _ in range(numLoops):
+                self.update_centroids()
+                self.assign_label()
     
