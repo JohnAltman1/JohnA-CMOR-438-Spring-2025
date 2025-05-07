@@ -28,7 +28,7 @@ The step size, alpha, controls the update speed. Stochastic Gradient Descent (SG
 
 ## Dataset
 
-This is applied to the **Banknote Authentication** dataset, sourced from the [UC Irvine Machine Learning Repository](https://archive.ics.uci.edu/dataset/267/banknote+authentication). It compared forged and real banknotes with parameters gained from procession the original images. In this section we specificaly looks at the "skewness" and "curtosis" datavalues. Skewness is how much the pixels in an image differ from a regular normal distribution, while Curtosis is how "tailed" the system is, how much the weight of the edges of a distribution compare to the center of the distribution.
+This is applied to the **Banknote Authentication** dataset, sourced from the [UC Irvine Machine Learning Repository](https://archive.ics.uci.edu/dataset/267/banknote+authentication). It compared forged and real banknotes with parameters gained from processing the original images. In this section we specificaly looks at the "skewness" and "curtosis" datavalues. Skewness is how much the pixels in an image differ from a regular normal distribution, while Curtosis is how "tailed" the system is, how much the weight of the edges of a distribution compare to the center of the distribution.
 
 ## Reproducing Results
 

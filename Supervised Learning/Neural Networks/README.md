@@ -32,7 +32,7 @@ After training, the model is evaluated on test data to ensure it generalizes wel
 
 ## Dataset
 
-The neural network model is applied to the **EMNIST** dataset, which is an extended dataset of handwritten characters. We only look at letters for this model, classifying the images to the appropriate letters. Notably, this dataset does not distinguish between capital and lowercase letters, so the model has to assign the characters "G" and "g" to the same output.
+The neural network model is applied to the **EMNIST** dataset, which is an extended dataset of handwritten characters sourced from https://www.nist.gov/itl/products-and-services/emnist-dataset. We only look at letters for this model, classifying the images to the appropriate letters. Notably, this dataset does not distinguish between capital and lowercase letters, so the model has to assign the characters "G" and "g" to the same output.
 
 ## Reproducing Results
 

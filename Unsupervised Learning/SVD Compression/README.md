@@ -31,7 +31,7 @@ Where `U_k`, `Σ_k`, and `V_kᵀ` are truncated versions that retain only the fi
 
 ## Dataset
 
-The SVD technique is applied to two png images of flags taken from https://hampusborgos.github.io/country-flags/. I chose flags becasue they provided a good range of image types, from super simple bicolor flags to ones with detailed designs on them. With both I can properly show the strengths and weaknesses of singular value decomposition. One last note about this data is that the images are RGB, so there is effectivly 3 matricies representing each image.
+The SVD technique is applied to two png images of flags taken from https://hampusborgos.github.io/country-flags/. I chose flags for my images because they provided a good range of image types, from super simple bicolor flags to ones with detailed designs on them. With both I can properly show the strengths and weaknesses of singular value decomposition. One last note about this data is that the images are RGB, so there is effectivly 3 matricies representing each image.
 
 ## Reproducing Results
 

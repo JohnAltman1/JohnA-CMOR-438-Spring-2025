@@ -17,7 +17,7 @@ Random Forests make use of bagging, with decision trees as the base models.
 
 ## Dataset
 
-This is applied to the **Banknote Authentication** dataset, sourced from the [UC Irvine Machine Learning Repository](https://archive.ics.uci.edu/dataset/267/banknote+authentication). It compared forged and real banknotes with parameters gained from procession the original images. In this section we specificaly looks at the "variance" and "skewness" datavalues. Variance is how much the pixels in the same image differ from each other, while skewness is how much the pixels in an image differ from a regular normal distribution.
+This is applied to the **Banknote Authentication** dataset, sourced from the [UC Irvine Machine Learning Repository](https://archive.ics.uci.edu/dataset/267/banknote+authentication). It compared forged and real banknotes with parameters gained from processing the original images. In this section we specificaly looks at the "variance" and "skewness" datavalues. Variance is how much the pixels in the same image differ from each other, while skewness is how much the pixels in an image differ from a regular normal distribution.
 
 ## Reproducing Results
 
