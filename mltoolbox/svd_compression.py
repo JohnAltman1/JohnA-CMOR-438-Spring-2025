@@ -50,12 +50,12 @@ class SVDImageCompressor:
 
         return np.array(compressed_channels_U),np.array(compressed_channels_S),np.array(compressed_channels_V)
     
-    def plot_sigma(self):
+    def plot_sigma(self,skip=0):
         self.S = np.array(self.S)
         n = ["R","G","B"]
         if len(self.S.shape)==2:
             for i in range(3):
-                plt.plot(np.sort(self.S[i])[::-1],label=n[i])
+                plt.plot(np.sort(self.S[i])[::-1][skip:len(self.S[i])],label=n[i])
 
         plt.xlabel("Singular Value - Order")
         plt.ylabel("Singular Value - Value")
